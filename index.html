@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page portofolio pribadi mahasiswa Ilmu Komputer UNIMED.">
+    <title>Portofolio Pribadi | Dhany Rolas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+    <header class="header-container">
+        <h1 class="header-title"> Portofolio Dhany Rolas</h1>
+        <p class="header-subtitle">Mahasiswa Ilmu Komputer UNIMED </p>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#tentang-saya" class="nav-link">Tentang</a></li>
+                <li class="nav-item"><a href="#proyek-saya" class="nav-link">Proyek</a></li>
+                <li class="nav-item"><a href="#kontak-saya" class="nav-link">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div class="layout-container">
+        
+        <main class="main-content">
+            
+            <section id="tentang-saya" class="card-box">
+                <h2 class="card-title">Tentang Saya</h2>
+                <figure class="profile-box">
+                    <img src="gambar/foto-profil-dhany.jpg" alt="Foto profil Dhany Rolas" class="profile-img" width="150">
+                    <br><br>
+                    <figcaption class="profile-caption">Foto Profil Saya</figcaption>
+                </figure>
+                <p class="card-text">
+                    Saya seorang Mahasiswa Ilmu Komputer Universitas Negeri Medan Semester 3 yang tertarik pada dunia teknologi dan pemrograman web.
+                </p>
+            </section>
+
+            <section id="proyek-saya" class="card-box">
+                <h2 class="card-title">Proyek Saya</h2>
+                <!-- Sesudah (Dipisah rapi) -->
+            <article class="project-item">
+            <h3 class="project-title">Website Estimasi Emisi CO₂ di Lampu Merah Kota Medan dengan Pendekatan Integral tentu dan Teknik Pecahan Parsial</h3>
+            <p class="project-desc">Project Website ini mengestimasi emisi CO₂ kendaraan saat berhenti di lampu merah Kota Medan menggunakan pendekatan integral tentu.</p>
+            </article>
+            <br>
+            <article class="project-item">
+            <h3 class="project-title">Analisis Kuantitatif Laju Perubahan Indeks UV sebagai Dasar Penetapan Strategi Proteksi yang Optimal</h3>
+            <p class="project-desc">Project Website ini menganalisis perubahan Indeks UV untuk menentukan strategi proteksi yang optimal.</p>
+            </article>
+
+
+            </section>
+
+            <section id="kontak-saya" class="card-box">
+                <h2 class="card-title">Hubungi Saya</h2>
+                <form action="#" method="POST" class="form-container">
+                    <div class="form-group">
+                        <label for="input-nama" class="form-label">Nama:</label>
+                        <input type="text" id="input-nama" name="nama" class="form-input" required>
+                    </div>
+                    <br>    
+                    <div class="form-group">
+                        <label for="input-email" class="form-label">Email:</label>
+                        <input type="email" id="input-email" name="email" class="form-input" required>
+                    </div>
+                    <br>
+                    <button type="submit" class="form-button">Kirim Pesan</button>
+                </form>
+            </section>
+
+        </main>
+      
+        <aside class="sidebar-box card-box">
+            <h3 class="sidebar-title">Keahlian Teknis</h3>
+            <ul class="sidebar-list">
+                <li class="sidebar-item">HTML5 Semantik</li>
+                <li class="sidebar-item">CSS3</li>
+                <li class="sidebar-item">Git & GitHub</li>
+            </ul>
+        </aside>
+
+    </div>
+    
+    <footer class="footer-container">
+        <p class="footer-text"> 2026 Dhany Rolas. Hak Cipta Dilindungi.</p>
+    </footer>
+
+</body>
+</html>
