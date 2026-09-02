@@ -51,42 +51,87 @@
             <h3 class="project-title">Analisis Kuantitatif Laju Perubahan Indeks UV sebagai Dasar Penetapan Strategi Proteksi yang Optimal</h3>
             <p class="project-desc">Project Website ini menganalisis perubahan Indeks UV untuk menentukan strategi proteksi yang optimal.</p>
             </article>
+            
+        </section>
 
+            <section id="kontak">
+      <div class="wrap">
+        <h2>Hubungi Saya</h2>
+        <p>Punya proyek atau ingin berkolaborasi? Isi formulir di bawah, saya akan membalas secepatnya.</p>
 
-            </section>
+        <form action="#" method="post" novalidate>
+          <div class="row2">
+            <div class="field">
+              <label for="nama">Nama lengkap</label>
+              <input type="text" id="nama" name="nama" required minlength="3" autocomplete="name">
+            </div>
+            <br> 
+            <div class="field">
+              <label for="email">Alamat email</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+          <br>
 
-            <section id="kontak-saya" class="card-box">
-                <h2 class="card-title">Hubungi Saya</h2>
-                <form action="#" method="POST" class="form-container">
-                    <div class="form-group">
-                        <label for="input-nama" class="form-label">Nama:</label>
-                        <input type="text" id="input-nama" name="nama" class="form-input" required>
-                    </div>
-                    <br>    
-                    <div class="form-group">
-                        <label for="input-email" class="form-label">Email:</label>
-                        <input type="email" id="input-email" name="email" class="form-input" required>
-                    </div>
-                    <br>
-                    <button type="submit" class="form-button">Kirim Pesan</button>
-                </form>
-            </section>
+          <div class="field">
+            <label for="subjek">Subjek</label>
+            <select id="subjek" name="subjek" required>
+              <option value="" disabled selected>Pilih topik</option>
+              <option value="kolaborasi">Ajakan kolaborasi</option>
+              <option value="freelance">Proyek freelance</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+          </div>
+          <br>
+
+          <div class="row2">
+            <div class="field">
+              <label for="tanggal">Tanggal mulai proyek</label>
+              <input type="date" id="tanggal" name="tanggal">
+            </div>
+            <br>
+
+          <div class="field">
+            <br>
+            <div class="field">
+                 <label for="pesan">Pesan</label>
+    
+                <textarea 
+                id="pesan" 
+                name="pesan" 
+                rows="6"
+                minlength="10" 
+                required
+                placeholder="Ceritakan sedikit tentang proyek Anda..."
+            ></textarea>
+
+        <small>Minimal 10 karakter</small>
+</div>
+
+          <br>
+          <button type="submit">Kirim pesan</button>
+          <p class="hint">Kolom bertanda wajib akan divalidasi sebelum pesan terkirim.</p>
+        </form>
+      </div>
+    </section>
 
         </main>
       
-        <aside class="sidebar-box card-box">
-            <h3 class="sidebar-title">Keahlian Teknis</h3>
-            <ul class="sidebar-list">
-                <li class="sidebar-item">HTML5 Semantik</li>
-                <li class="sidebar-item">CSS3</li>
-                <li class="sidebar-item">Git & GitHub</li>
-            </ul>
+       <aside aria-label="Sedang dipelajari">
+          <h2>Sedang saya pelajari</h2>
+          <ul>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Java Script</li>
+            <li>Dasar PHP</li>
+            <li>Dasar Laravel</li>
+          </ul>
         </aside>
 
     </div>
     
     <footer class="footer-container">
-        <p class="footer-text"> 2026 Dhany Rolas. Hak Cipta Dilindungi.</p>
+        <p>&copy; <time datetime="2026">2026</time>  Dhany Rolas. Dibuat dengan HTML5 semantik.</p>
     </footer>
 
 </body>
